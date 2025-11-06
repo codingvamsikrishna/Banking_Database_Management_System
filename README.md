@@ -9,14 +9,16 @@ The goal is to simulate real-world banking operations and perform **data-driven 
 ## 🧾 Database Overview  
 The database consists of multiple interrelated tables representing essential banking entities and their relationships.  
 
-**Tables used in this project:**  
-- 👤 **Bank_Customer_Info:** Stores customer details such as ID, name, address, and state code.  
-- 🧮 **Bank_Account_Data:** Contains account types, balances, and statuses.  
-- 💳 **Bank_Transaction_Log:** Records customer transactions with date, amount, and channel.  
-- 🔗 **Bank_Account_Mapping:** Links customers’ primary and secondary accounts.  
-- 📊 **Bank_Account_Records:** Maintains account creation and performance details.  
-- 📁 **Bank_Customer_InfoExport:** Used for exporting customer data summaries.  
-- 🧠 **Bank_Account_Relationship:** Defines the mapping between linked or joint accounts.  
+**Tables used in this project:**    
+
+- 👤 **Bank_Customer_Info:** Holds essential customer details like ID, name, and address.  
+- 🧮 **Bank_Customer_InfoExport:** Stores summarized customer account information for reports.  
+- 💳 **Bank_Account_Data:** Contains account details such as type, balance, and transaction status.  
+- 🔗 **Bank_Account_Mapping:** Maps customer accounts and links primary with secondary accounts.  
+- 📊 **Bank_Transaction_Log:** Records transaction details including amount, date, and channel.  
+- 📁 **Bank_Customer_Alerts:** Manages notifications and alerts for customer activities.  
+- 🧠 **Bank_Interest_Info:** Maintains information on interest types and linked account relationships.  
+  
 
 ---
 
@@ -50,5 +52,8 @@ The database consists of multiple interrelated tables representing essential ban
 ✨ Structured data visualization using Pandas and Tabulate.  
 ✨ Database securely stored in Google Drive for persistent access.  
 
+---
+  
+**Tools Used:** Python, SQLite, Pandas, Google Colab
 
 
